@@ -1,0 +1,22 @@
+{
+  "name": "sanber50-cypress-kelompok10",
+  "version": "1.0.0",
+  "description": "Sanber 50 Cypress Kelompok 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satrioalifw/Sanber50-Cypress-Kelompok10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satrioalifw/Sanber50-Cypress-Kelompok10/issues"
+  },
+  "homepage": "https://github.com/satrioalifw/Sanber50-Cypress-Kelompok10#readme",
+  "dependencies": {
+    "cypress": "^13.3.2"
+  }
+}
