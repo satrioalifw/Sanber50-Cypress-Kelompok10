@@ -16,7 +16,7 @@
     "url": "https://github.com/satrioalifw/Sanber50-Cypress-Kelompok10/issues"
   },
   "homepage": "https://github.com/satrioalifw/Sanber50-Cypress-Kelompok10#readme",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^13.3.2"
   }
 }
