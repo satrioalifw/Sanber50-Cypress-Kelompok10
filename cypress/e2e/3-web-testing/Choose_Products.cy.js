@@ -17,4 +17,16 @@ describe('Web testing', () => {
         cy.url().visit ('/sparta-gym-tank.html')
         cy.wait(60)
     })
+
+    it('Choose products lain', () => {
+        // pilih dropdown Gear, klik Fitness Equipment
+        cy.get('#ui-id-6').trigger('mouseover')
+        cy.get('#ui-id-26').click()
+
+        // pilih produk
+        cy.url().visit ('/quest-lumaflex-trade-band.html')
+
+        // add to cart
+        cy.get('#product-addtocart-button').click()
+    })
 })
