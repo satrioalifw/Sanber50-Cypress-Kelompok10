@@ -1,15 +1,16 @@
 class PageAccount{
 
-    successmessage = '.message-success > div'
+    successmessage='.message-success > div'
 
     checkurl(){
         cy.url()
-        .should('include',' /customer/account')
+        .should('include', '/customer/account')
         
     }
     getmessagesuccess(){
         cy.get(this.successmessage)
-        .should('contain.text', 'Thank you for registering')
+
+        .should('contain.text', 'Thank you for registering with Main Website Store.')
 
     }
 }

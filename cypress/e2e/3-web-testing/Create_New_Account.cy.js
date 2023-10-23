@@ -1,6 +1,8 @@
 import Home from "../../support/PageObject/Home"
 import PageAccount from "../../support/PageObject/PageAccount"
 import RegisterPage from "../../support/PageObject/RegisterPage"
+import RandomEmail from "../../support/PageObject/RandomEmail"
+
 
 describe('Success Go to Register Page', () => {
     beforeEach(() => {
@@ -19,9 +21,9 @@ describe('Success Go to Register Page', () => {
 // masih ada error namun belum ketemu fixingnya gimana T-T
         RegisterPage.inputFirstName('Rifqi')
         RegisterPage.inputLastName('Widjanarko')
-        RegisterPage.inputEmailAddress('rifqy.widjanarko@gmail.com')
-        RegisterPage.inputPassword('rifqi123')
-        RegisterPage.inputConfirmPassword('rifqi123')
+        RegisterPage.inputEmailAddress(RandomEmail.generateRandomEmailAddress())
+        RegisterPage.inputPassword('Rifqimw123')
+        RegisterPage.inputConfirmPassword('Rifqimw123')
         RegisterPage.clickCreateanAccountButton()
 
         PageAccount.checkurl()

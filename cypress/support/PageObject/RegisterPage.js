@@ -1,10 +1,10 @@
 class RegisterPage{
 
-firstNameField ="#firstame"
+firstNameField ='#firstname'
 lastNameField = '#lastname'
-emalAddressField = '#email_address'
+emailAddressField = '#email_address'
 passwordField = '#password'
-confirmPasswordField = 'password-confirmation'
+confirmPasswordField = '#password-confirmation'
 createAccountbtn = '#form-validate > .actions-toolbar > div.primary > .action'
 
 
