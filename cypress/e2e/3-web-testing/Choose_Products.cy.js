@@ -13,7 +13,7 @@ describe('Choose Products', () => {
         cy.get('#ui-id-17').click()
 
         // pilih produk
-        cy.url().should ('include', '/sparta-gym-tank.html')
+        cy.url().visit ('/sparta-gym-tank.html')
         cy.wait(60)
     })
 })
