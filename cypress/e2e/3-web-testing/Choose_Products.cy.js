@@ -1,10 +1,11 @@
-describe('Choose Products', () => {
+describe('Web testing', () => {
     beforeEach(() => {
         cy.visit('')
 
     })
 
-    it('Buka landing page', () => {
+    it('Choose products', () => {
+        // buka landing page
         cy.get('.home-main > .content > .info').should('be.visible')
         cy.get('.content-heading > .title').should('be.visible')
 
